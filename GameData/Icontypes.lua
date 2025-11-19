@@ -53,6 +53,11 @@ local iconTypes = {
     size = 2,
     radiusadjust = true,
   },
+    alpha  = {
+    bitmap = "Icons/Alpha.tga",
+    size = 1.25,
+    radiusadjust = true,
+  },
   hoverraider = {
     bitmap = "Icons/HoverRaider.tga",
     size = 1.25,
@@ -90,6 +95,11 @@ local iconTypes = {
   },
   clam = {
     bitmap = "Icons/HoverClam.tga",
+    size = 1.25,
+    radiusadjust = true,
+  },
+    hoverheavyraider = {
+    bitmap = "Icons/HoverHeavyRaider.tga",
     size = 1.25,
     radiusadjust = true,
   },
@@ -182,6 +192,11 @@ local iconTypes = {
   buildingbb = {
     bitmap = "Icons/BuildingBB.tga",
     size = 1,
+    radiusadjust = true,
+  },
+   buildingvolcano = {
+    bitmap = "Icons/BuildingVolcano.tga",
+    size = 0.75,
     radiusadjust = true,
   },
   buildingconstructor = {

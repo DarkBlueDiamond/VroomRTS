@@ -8,7 +8,7 @@ local weaponDef = {
 				},	      
 		  --physics
 		  areaOfEffect			  = 140,
-		  edgeEffectiveness       = 0.75,
+		  edgeEffectiveness       = 1,
 		  weaponVelocity          = 1200,
 		  reloadtime              = 25,
 		  range                   = 500,
@@ -20,8 +20,8 @@ local weaponDef = {
 			
 	      turret                  = true,
 		  craterMult              = 0,
-		  burst					  = 20,
-		  burstrate 			  = 0.1,
+		  burst					  = 30,
+		  burstrate 			  = 0.15,
 		  avoidFeature			= false,
 		  soundStart            = [[Weapons/bomb_drop]],
 		  soundStartVolume        = 4,	

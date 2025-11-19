@@ -68,7 +68,7 @@ terraformSpeed = 9001,
 buildoptions = 
 	{
 	[[extractor]],
-	--[[windturbine]]--,
+	[[windturbine]],
 	[[solarpanel]],
 	[[tidalgenerator]],
 	[[geothermalgenerator]],
@@ -87,6 +87,8 @@ buildoptions =
 	[[radartower]],
 	[[caretaker]],
 	[[bb]],
+	[[volcano]],
+	[[alpha]],
 	},
 	
 --Aerial things

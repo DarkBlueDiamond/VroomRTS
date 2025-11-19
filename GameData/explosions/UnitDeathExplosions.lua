@@ -7,6 +7,8 @@
 --BBdeath
 --smallairdeath
 --mediumairdeath
+--VolcanoDeath
+ --volcanoshock
 return {
 --Stunburstdeath
     ["Stunburstdeath"] = {
@@ -309,10 +311,10 @@ return {
         groundflash = {
 		
             circlealpha        = 1,
-            circlegrowth       = 4,
+            circlegrowth       = 12,
             flashalpha         = 0.9,
-            flashsize          = 170, --30
-            ttl                = 25,
+            flashsize          = 600, --30
+            ttl                = 60,
             color = {
                 [1]  = 1,
                 [2]  = 0.95,
@@ -327,12 +329,12 @@ return {
             water              = true,
 			underwater         = true,
             properties = {
-                heat               = 32,
+                heat               = 168,
                 heatfalloff        = 1,
-                maxheat            = 32,
+                maxheat            = 168,
                 pos                = [[0, 1, 0]],
-                size               = 65, 
-                sizegrowth         = 1.3, 
+                size               = 108, 
+                sizegrowth         = 1.5, 
                 speed              = [[0, 1, 0]],
                 texture            = [[heatcloud]],
             },
@@ -347,8 +349,75 @@ return {
       properties = {
         alpha              = 0.5,
         color              = [[1,0.95,0.4]],
-        expansionspeed     = 8,
-        ttl                = 36,
+        expansionspeed     = 11,
+        ttl                = 58,
+	},
+   },
+  },
+   --volcanodeath
+  ["volcanodeath"] = {
+	usedefaultexplosions = false,
+        groundflash = {
+		
+            circlealpha        = 1,
+            circlegrowth       = 14,
+            flashalpha         = 0.9,
+            flashsize          = 800, --30
+            ttl                = 60,
+            color = {
+                [1]  = 1,
+                [2]  = 0.95,
+                [3]  = 0.4,
+            },
+        },
+        mainhit = {
+            air                = true,
+            class              = [[heatcloud]],
+            count              = 1,
+            ground             = true,
+            water              = true,
+			underwater         = true,
+            properties = {
+                heat               = 200,
+                heatfalloff        = 1,
+                maxheat            = 200,
+                pos                = [[0, 1, 0]],
+                size               = 65, 
+                sizegrowth         = 1.5, 
+                speed              = [[0, 1, 0]],
+                texture            = [[heatcloud]],
+            },
+        },
+		explosionsphere  = {
+      air                = true,
+      class              = [[CSpherePartSpawner]],
+      count              = 1,
+      ground             = true,
+      water              = true,
+	  underwater         = true,
+      properties = {
+        alpha              = 0.5,
+        color              = [[1,0.95,0.4]],
+        expansionspeed     = 12,
+        ttl                = 60,
+	},
+   },
+  },
+   --volcanoshock
+  ["volcanoshock"] = {
+	usedefaultexplosions = false,
+		explosionsphere  = {
+      air                = true,
+      class              = [[CSpherePartSpawner]],
+      count              = 1,
+      ground             = true,
+      water              = true,
+	  underwater         = true,
+      properties = {
+        alpha              = 0.1,
+        color              = [[1,1,1]],
+        expansionspeed     = 20,
+        ttl                = 60,
 	},
    },
   },

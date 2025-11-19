@@ -119,6 +119,28 @@ return {
       },
     },
   },
+    --volcano
+	["volcanomuzzleflash"] = {
+    bitmapmuzzleflame = {
+      air                = true,
+      class              = [[CBitmapMuzzleFlame]],
+      count              = 1,
+      ground             = true,
+      underwater         = 1,
+      water              = true,
+      properties = {
+        colormap           = [[0.8 0.65 0.4 0.01   0.75 0.5 0.35 0.01   0.6 0.4 0.2 0.01   0 0 0 0.01]],
+        dir                = [[dir]],
+        frontoffset        = 0,
+        fronttexture       = [[muzzlefront]],
+        length             = 200,
+        sidetexture        = [[muzzleside]],
+        size               = 42,
+        sizegrowth         = -2,
+        ttl                = 38,
+      },
+    },
+  },
   --swatter
   ["swattermuzzleflash"] = {
     bitmapmuzzleflame = {

@@ -6,6 +6,6 @@ explosionGenerator = [[custom:BBdeath]],
 damage                  = {
 		default = 2000,        
 		},
-areaOfEffect = 400,
+areaOfEffect = 800,
 }
 return lowerkeys({[weaponName] = weaponDef})

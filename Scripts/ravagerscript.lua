@@ -4,7 +4,7 @@ local Body = piece "Body"
 local Turret = piece "Turret"
 local TurretPlasma = piece "TurretPlasma"
 local Flare = piece "Flare"
-aimSpeed = 3.3
+aimSpeed = 2 --3.3
 local ravagermuzzleflash = SFX.CEG
 local SIG_AIM = 1
 

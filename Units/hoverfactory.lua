@@ -57,6 +57,7 @@ buildoptions =
 	[[skeeter]],
 	[[flow]],
 	[[swatter]],
+	[[cutlass]],
 	[[shatterer]],
 	[[lurker]],
 	[[clam]],

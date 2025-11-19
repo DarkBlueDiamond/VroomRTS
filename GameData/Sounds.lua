@@ -318,6 +318,24 @@ local Sounds = {
 			maxconcurrent = 50, ---only once
 			--maxdist = FLT_MAX, --- only when near
 		},
+				PhaseGunShot = {			
+			file = "Sounds/Weapons/PhaseGunShot.wav",
+			preload, -- put in memory!
+			gain = 1.2, --- for uber-loudness
+			pitch = 0.8, --- bass-test
+			priority = 15, --- very high
+			maxconcurrent = 50, ---only once
+			--maxdist = FLT_MAX, --- only when near
+		},
+				PhaseGunBlast = {			
+			file = "Sounds/Explosions/PhaseGunBlast.wav",
+			preload, -- put in memory!
+			gain = 1.2, --- for uber-loudness
+			pitch = 0.8, --- bass-test
+			priority = 15, --- very high
+			maxconcurrent = 50, ---only once
+			--maxdist = FLT_MAX, --- only when near
+		},
 	},
 	}
 	

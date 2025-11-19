@@ -13,7 +13,7 @@ BuildPic = "Stormcloud.png",
 	icontype = "airriot",
 --Unit limitations and properties
     Description = "Heavy Carpet Bomber.",
-    MaxDamage = 2400,
+    MaxDamage = 2600,
     idleTime = 0,
     idleAutoHeal = 0,
     RadarDistance = 0,
@@ -24,9 +24,9 @@ BuildPic = "Stormcloud.png",
 	selfDestructAs = [[MediumAirExplosion]],
    corpse = [[stormcloud_dead]],
 --Energy and metal related
-    BuildCostEnergy = 800,
-    BuildCostMetal = 800,
-    BuildTime = 800,
+    BuildCostEnergy = 1350,
+    BuildCostMetal = 1350,
+    BuildTime = 1350,
 --Pathfinding and related
     maxAcc = 0.25,
     BrakeRate = 0.1,
@@ -36,7 +36,7 @@ BuildPic = "Stormcloud.png",
     speed = 102, --124
     MaxWaterDepth = 5,
     MovementClass = "Large Vechicle",
-    TurnRate = 1700,
+    TurnRate = 2200,
 
     
 --Abilities
@@ -55,6 +55,7 @@ BuildPic = "Stormcloud.png",
 canFly = 1,
 hoverAttack = 0,
 cruiseAlt = 375, --375
+maxRudder = 0.006,
 turnradius = 20,
 
 

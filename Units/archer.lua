@@ -12,7 +12,7 @@ BuildPic = "Archer.png",
     script = "archerscript.lua",
 	icontype = "shipantiair",
 --Unit limitations and properties
-    Description = "Fire Support unit.",
+    Description = "Anti air unit.",
     MaxDamage = 865,
     idleTime = 0,
     idleAutoHeal = 0,

@@ -18,7 +18,7 @@ BuildPic = "filename.png",
     idleAutoHeal = 10,
     RadarDistance = 2250,
     SightDistance = 600,
-	sonarDistance = 2250,
+	sonarDistance = 600,
     SoundCategory = "TANK",
     Upright = 0,
 	corpse = [[commander_dead]],
@@ -72,7 +72,7 @@ terraformSpeed = 9001,
 buildoptions = 
 	{
 	[[extractor]],
-	--[[windturbine]]--,
+	[[windturbine]],
 	[[solarpanel]],
 	[[tidalgenerator]],
 	[[geothermalgenerator]],
@@ -91,6 +91,8 @@ buildoptions =
 	[[radartower]],
 	[[caretaker]],
 	[[bb]],
+	[[volcano]],
+	[[alpha]],
 	},
 
 --Hitbox

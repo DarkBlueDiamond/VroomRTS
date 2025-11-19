@@ -18,7 +18,7 @@ BuildPic = "Naval Constructor.png",
     idleAutoHeal = 0,
     RadarDistance = 0,
     SightDistance = 500,
-	sonarDistance = 500,
+	sonarDistance = 250,
     SoundCategory = "TANK",
     Upright = 0,
 	corpse = [[navalconstructor_dead]],
@@ -64,7 +64,7 @@ terraformSpeed = 9001,
 buildoptions = 
 	{
 	[[extractor]],
-	--[[windturbine]]--,
+	[[windturbine]],
 	[[solarpanel]],
 	[[tidalgenerator]],
 	[[geothermalgenerator]],
@@ -83,6 +83,8 @@ buildoptions =
 	[[radartower]],
 	[[caretaker]],
 	[[bb]],
+	[[volcano]],
+	[[alpha]],
 	},
 
 --Hitbox

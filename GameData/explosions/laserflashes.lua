@@ -11,6 +11,7 @@
 --gazer
 --stingray
 --archer
+--cutlass
 return {
 --llt
   ["llthit"] = {
@@ -800,4 +801,47 @@ return {
             },
         },
 	},
+	--cutlass
+["cutlasshit"] = {
+  usedefaultexplosions = false,
+    groundflash = {
+      circlealpha        = 1,
+      circlegrowth       = 0,
+      flashalpha         = 0.8,
+      flashsize          = 12,
+      ttl                = 5,
+      color = {
+        [1]  = 1,
+        [2]  = 0.2,
+        [3]  = 0.2,
+      },
+    },
+   spark = {
+      class              = [[CSimpleParticleSystem]],
+      count              = 1,
+      ground             = true,
+      unit               = 1,
+	  water              = true,
+      properties = {
+        airdrag            = 0.97,
+        colormap           = [[1 0.2 0.2 0.01   0.8 0.15 0.125 0.01   0.75 0.1 0.1 0.01   0 0 0 0.01]],
+        directional        = true,
+        emitrot            = 0,
+        emitrotspread      = 40,
+        emitvector         = [[0 1 0]],
+        gravity            = [[0, -0.45, 0]],
+        numparticles       = 8,
+        particlelife       = 6,
+        particlelifespread = 2,
+        particlesize       = 6,
+        particlesizespread = 2,
+        particlespeed      = 5,
+        particlespeedspread = 15, --4
+        pos                = [[0, 1, 0]],
+        sizegrowth         = 0,
+        sizemod            = 1.0,
+        texture            = [[simplespark]],
+      },
+    },
+},
 }

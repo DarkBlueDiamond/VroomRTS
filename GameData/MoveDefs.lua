@@ -14,6 +14,13 @@ local moveDefs 	=	 {
 		maxWaterDepth =	20,
 		maxSlope =	40,
 	},
+		{
+		name =	"Ultimate Vechicle",
+		footprintX =	5,
+		footprintZ =	5,
+		maxWaterDepth =	200000000,
+		maxSlope =	45,
+	},
 	{
 		name =	"Hover commander",
 		footprintX =	4,

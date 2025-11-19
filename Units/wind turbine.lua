@@ -1,10 +1,10 @@
---delayed for now due to me not being able to get it to work with windmill_control
+
 
 local unitName  =  "windturbine"
 
 local unitDef  =  {
 --Internal settings
-BuildPic = "Wind Turbine.png",
+BuildPic = "Windturbine.png",
     Category = "TANK SMALL NOTAIR NOTSUB",
     ObjectName = "Wind Turbine.s3o",
     name = "Wind Turbine",
@@ -15,7 +15,7 @@ BuildPic = "Wind Turbine.png",
 	icontype = "buildingenergy",
 --Unit limitations and properties
     Description = "Wind based energy generator",
-    MaxDamage = 250,
+    MaxDamage = 225,
     idleTime = 0,
     idleAutoHeal = 0,
     RadarDistance = 0,
@@ -23,17 +23,17 @@ BuildPic = "Wind Turbine.png",
     SoundCategory = "Building",
     Upright = 0,
     floater = true,
-	corpse = [[llt_dead]],
+	corpse = [[windturbine_dead]],
 --Energy and metal related
     BuildCostEnergy = 55,
     BuildCostMetal = 55,
     buildTime = 55,
-	windGenerator = 25,
-	customparams = {
-	energymultiplier = 0.1,
-	},
+	windGenerator = 5,
+	customParams = {
+    energymultiplier = 0.1,
+},
 --Size and Abilites
-  MaxSlope = 33,
+  MaxSlope = 85,
    FootprintX = 3,
    FootprintZ = 3,
    canSelfDestruct = 1,

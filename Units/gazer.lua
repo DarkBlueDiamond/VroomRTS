@@ -23,9 +23,9 @@ BuildPic = "Gazer.png",
     Upright = 0,
 	corpse = [[gazer_dead]],
 --Energy and metal related
-    BuildCostEnergy = 750,
-    BuildCostMetal = 750,
-	BuildTime = 750,
+    BuildCostEnergy = 1000,
+    BuildCostMetal = 1000,
+	BuildTime = 1000,
 --Pathfinding and related
     maxAcc = 0.4,
     BrakeRate = 0.2,

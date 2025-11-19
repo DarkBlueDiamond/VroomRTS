@@ -7,7 +7,7 @@ Accuracy=2000,
 
 --Physic/flight path
 
-range=270,
+range=280,
 reloadtime=3.25,
 weaponVelocity=680,
 startVelocity=280,

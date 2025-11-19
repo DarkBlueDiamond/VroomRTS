@@ -9,6 +9,12 @@ local stealthDefs = {
     energy = 1.6,
     delay  = 30,
   },
+   alpha = {
+    draw   = true,
+    init   = false,
+    energy = 6,
+    delay  = 10,
+  },
   
 }
 

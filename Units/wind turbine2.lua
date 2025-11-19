@@ -1,7 +1,6 @@
---an placeholder unit for the unit_windmill_control gadget
 
-local unitName  =  "windturbinettl"
 
+local unitName  =  "windturbine2"  --placeholder for the wind_ontrol widget
 local unitDef  =  {
 --Internal settings
 BuildPic = "Wind Turbine.png",
@@ -12,7 +11,7 @@ BuildPic = "Wind Turbine.png",
     TEDClass = "Building",
     UnitName = "Wind Turbine",
     script = "windturbinescript.lua",
-
+	icontype = "buildingenergy",
 --Unit limitations and properties
     Description = "Wind based energy generator",
     MaxDamage = 250,
@@ -28,10 +27,10 @@ BuildPic = "Wind Turbine.png",
     BuildCostEnergy = 55,
     BuildCostMetal = 55,
     buildTime = 55,
-	windGenerator = 25,
-	customparams = {
-	energymultiplier = 0.1,
-	},
+	windGenerator = 5,
+	customParams = {
+    energymultiplier = 0.1,
+},
 --Size and Abilites
   MaxSlope = 33,
    FootprintX = 3,

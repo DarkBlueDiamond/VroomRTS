@@ -4,7 +4,7 @@ local Body = piece "Body"
 local Turret = piece "Turret"
 local TurretMuzzle = piece "TurretMuzzle"
 local Flare = piece "Flare"
-aimSpeed = 3
+aimSpeed = 1.75 --3
 
 local SIG_AIM = 1
 

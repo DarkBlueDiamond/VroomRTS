@@ -20,6 +20,7 @@ BuildPic = "BB.png",
     RadarDistance = 0,
     SightDistance = 750,
     SoundCategory = "Building",
+    maxWaterDepth = 125,
 --Energy and metal related
     BuildCostEnergy = 6000,
     BuildCostMetal = 6000,

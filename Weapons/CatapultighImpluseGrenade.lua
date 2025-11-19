@@ -6,10 +6,11 @@ local weaponDef = {
 		  damage = {
 				default = 41,
 				},	      
-	      areaOfEffect            = 85,
+	      areaOfEffect            = 140,
 		  --physics
 		  weaponVelocity          = 550,
 		  reloadtime              = 3.2,
+		  edgeEffectiveness       = 1,
 		  range                   = 900,
 		  sprayAngle              = 2000,
 		  accuracy 				  = 0,
@@ -18,8 +19,8 @@ local weaponDef = {
 		  groundBounce 			  = true,
 		  numBounce 			  = 3,
 		  lineOfSight             = false,
-		  bounceSlip 			  = 0.45,
-		  bounceRebound 		  = 0.7,
+		  bounceSlip 			  = 0.23,
+		  bounceRebound 		  = 0.4,
 		  burst = 3,
 		  burstrate = 0,
  		  avoidfriendly 	= true,
