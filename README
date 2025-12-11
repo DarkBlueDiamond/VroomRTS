@@ -6,17 +6,3 @@ Root
 * EngineOptions.lua - https://github.com/spring/spring/blob/develop/cont/base/springcontent/EngineOptions.lua
 
 
-
-
-todo.
-.fix solar so it properly creates energy instead of relying on a script.
-.proper add wind into game
-. add volcano (SW). V
-	.add corpse V
-	.add custom icon V
-	.add build png V
-	.add secondary ceg effect V
-
-. add a light strider tank.
-add icon.
-

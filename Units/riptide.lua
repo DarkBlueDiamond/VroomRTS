@@ -29,14 +29,15 @@ BuildPic = "Riptide.png",
     BuildCostMetal = 90,
     BuildTime = 90,
 --Pathfinding and related
-    maxAcc = 0.35,
-    BrakeRate = 0.1,
+   maxAcc = 0.09,
+    BrakeRate = 0.108,
+    turninplace = 0,
     FootprintX = 2,
     FootprintZ = 2,
     MaxSlope = 45,
     speed = 88,
     MovementClass = "Small Ship",
-    TurnRate = 2250,
+    TurnRate = 900,
 
     
 --Abilities
@@ -53,9 +54,9 @@ BuildPic = "Riptide.png",
     activateWhenBuilt = 1,
 
 --Hitbox
-collisionVolumeOffsets    =  "0 -3 0",
-collisionVolumeScales     =  "20 23 46",
-collisionVolumeType       =  "box",
+collisionVolumeOffsets    =  "0 1 0",
+collisionVolumeScales     =  "32 28 58",
+collisionVolumeType       =  "ellipsoid",
 
    
 --Weapons and related

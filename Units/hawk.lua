@@ -54,7 +54,7 @@ BuildPic = "Hawk.png",
 --Aerial things
 canFly = 1,
 hoverAttack = 0,
-cruiseAlt = 325, --375
+cruiseAlt = 325,
 canLoopbackAttack = true,
 maxRudder = 0.008,
 maxElevator = 0.02,
@@ -62,7 +62,7 @@ turnradius = 20,
 
 --Hitbox
 collisionVolumeOffsets    =  "0 0 0",
-collisionVolumeScales     =  "15.5 10 30",
+collisionVolumeScales     =  "10 9.5 25",
 collisionVolumeType       =  "box",
 
    

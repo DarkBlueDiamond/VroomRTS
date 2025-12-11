@@ -32,13 +32,14 @@ BuildPic = "Naval Constructor.png",
     BuildCostMetal = 125,
 	Buildtime = 125,
 --Pathfinding and related
-    maxAcc = 0.35,
-    BrakeRate = 0.1,
+   maxAcc = 0.06,
+    BrakeRate = 0.072,
+    turninplace = 0,
     FootprintX = 3,
     FootprintZ = 3,
     speed = 35,
     MovementClass = "Medium Ship",
-    TurnRate = 1000,
+     TurnRate = 600,
 
     
 --Abilities
@@ -88,9 +89,9 @@ buildoptions =
 	},
 
 --Hitbox
- collisionVolumeOffsets    =  "0 0 -2.5",
-collisionVolumeScales     =  "24 28 53",
-collisionVolumeType       =  "box",
+collisionVolumeOffsets    =  "0 1 0",
+collisionVolumeScales     =  "31 28 63",
+collisionVolumeType       =  "ellipsoid",
 
    
 --Weapons and related

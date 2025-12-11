@@ -13,7 +13,7 @@ weaponDef = {
 	cylinderTargeting = 128,
 	--damage--
 	damage                  = {
-		default = 6,        
+		default = 7,        
 		},
 	areaOfEffect            = 0,
 	craterBoost             = 0,

@@ -52,8 +52,8 @@ BuildPic = "Lurker.png",
     activateWhenBuilt = 1,
 
 --Hitbox
-collisionVolumeOffsets    =  "0 0 0",
-collisionVolumeScales     =  "30 34 55",
+collisionVolumeOffsets    =  "0 0 -2.5",
+collisionVolumeScales     =  "30 20 50",
 collisionVolumeType       =  "box",
 
    

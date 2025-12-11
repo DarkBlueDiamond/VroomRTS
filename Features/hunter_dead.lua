@@ -13,8 +13,8 @@ return lowerkeys({
             world = "All Worlds",
             category = "dedunit",
 			featureDead = "hunter_heap",
-			collisionvolumeoffsets = "0 -5 0",
-			collisionvolumescales = "18 17 32",
+			collisionvolumeoffsets = "0 -4 0",
+			collisionvolumescales = "16 13 26",
 			collisionvolumetype = "box",
 },
 hunter_heap = {

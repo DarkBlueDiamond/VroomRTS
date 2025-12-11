@@ -59,8 +59,8 @@ BuildPic = "Hunter.png",
     
 
 --Hitbox
-collisionVolumeOffsets    =  "0 -3 0",
-collisionVolumeScales     =  "15.5 18 36",
+collisionVolumeOffsets    =  "0 0 -2",
+collisionVolumeScales     =  "12 12 26",
 collisionVolumeType       =  "box",
 
    

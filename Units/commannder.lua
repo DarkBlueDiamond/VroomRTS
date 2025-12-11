@@ -96,8 +96,8 @@ buildoptions =
 	},
 
 --Hitbox
-   collisionVolumeOffsets    =  "0 -5 0",
-   collisionVolumeScales     =  "51.5 46 61.5",
+   collisionVolumeOffsets    =  "0 0 0",
+   collisionVolumeScales     =  "46 33.5 60.5",
     collisionVolumeType       =  "box",
 
    

@@ -34,14 +34,15 @@ BuildPic = "Catapult.png",
     BuildCostMetal = 325,
     BuildTime = 325,
 --Pathfinding and related
-    maxAcc = 0.35,
-    BrakeRate = 0.1,
+   maxAcc = 0.0725,
+    BrakeRate = 0.087,
+    turninplace = 0,
     FootprintX = 2,
     FootprintZ = 2,
     MaxSlope = 45,
     speed = 50,
     MovementClass = "Medium Ship",
-    TurnRate = 1750,
+    TurnRate = 725,
 
     
 --Abilities
@@ -58,9 +59,9 @@ BuildPic = "Catapult.png",
     highTrajectory = 2,
 	activateWhenBuilt = 1,
 --Hitbox
-collisionVolumeOffsets    =  "0 0 0",
-collisionVolumeScales     =  "42 32 73",
-collisionVolumeType       =  "box",
+collisionVolumeOffsets    =  "0 1 0",
+collisionVolumeScales     =  "57 46 104",
+collisionVolumeType       =  "ellipsoid",
 
    
 --Weapons and related

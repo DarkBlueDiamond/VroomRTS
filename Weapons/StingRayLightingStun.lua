@@ -9,13 +9,13 @@ weaponDef = {
 	reloadtime              = 0.1,
 	targetMoveError         = 0.1,
 	turret                  = true,
-	paralyzeTime = 1.5,
+	paralyzeTime = 2,
 	paralyzer = true,
 	waterWeapon = true,
 	cylinderTargeting = 128,
 	--damage--
 	damage                  = {
-		default = 11,        
+		default = 12.5,        
 		},
 	areaOfEffect            = 0,
 	craterBoost             = 0,

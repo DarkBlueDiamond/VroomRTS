@@ -70,6 +70,7 @@ local moveDefs 	=	 {
 		minWaterDepth =	30,
 		speedModClass = 3,
 		waterline = 30,
+		Submarine = 1,
 	},
 }
 

@@ -14,7 +14,7 @@ return lowerkeys({
             category = "dedunit",
 			featureDead = "stunburst_heap",
 			collisionvolumeoffsets = "0 -5 0",
-		collisionVolumeScales     =  "17 24 25",
+		collisionVolumeScales     =  "17 19 25",
 			collisionvolumetype = "box",
 },
 stunburst_heap = {

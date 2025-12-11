@@ -75,8 +75,8 @@ turnradius = 20,
  --flareSalvoDelay = 3,
  
 --Hitbox
-collisionVolumeOffsets    =  "0 5 0",
-collisionVolumeScales     =  "19 15 36",
+collisionVolumeOffsets    =  "0 0 2",
+collisionVolumeScales     =  "15 12 34",
 collisionVolumeType       =  "box",
 
    

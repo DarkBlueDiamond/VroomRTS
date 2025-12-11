@@ -29,14 +29,15 @@ BuildPic = "Sting Ray.png",
     BuildCostMetal = 185,
     BuildTime = 185,
 --Pathfinding and related
-    maxAcc = 0.35,
-    BrakeRate = 0.1,
+   maxAcc = 0.08,
+    BrakeRate = 0.096,
+    turninplace = 0,
     FootprintX = 2,
     FootprintZ = 2,
     MaxSlope = 45,
     speed = 79,
     MovementClass = "Small Sub",
-    TurnRate = 2000,
+    TurnRate = 800,
 
     
 --Abilities
@@ -53,8 +54,8 @@ BuildPic = "Sting Ray.png",
     activateWhenBuilt = 1,
 
 --Hitbox
-collisionVolumeOffsets    =  "0 -3 0",
-collisionVolumeScales     =  "20 23 45",
+collisionVolumeOffsets    =  "0 0 0",
+collisionVolumeScales     =  "15.5 15.5 46",
 collisionVolumeType       =  "box",
 
    

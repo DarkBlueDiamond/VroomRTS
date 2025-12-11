@@ -34,14 +34,14 @@ BuildPic = "Vanguard.png",
     BuildCostMetal = 600,
     BuildTime = 600,
 --Pathfinding and related
-    maxAcc = 0.35,
-    BrakeRate = 0.1,
+    maxAcc = 0.0575,
+    BrakeRate = 0.069,
     FootprintX = 2,
     FootprintZ = 2,
     MaxSlope = 45,
     speed = 38,
     MovementClass = "Large Ship",
-    TurnRate = 1475,
+    TurnRate = 575,
 
     
 --Abilities
@@ -58,9 +58,9 @@ BuildPic = "Vanguard.png",
 	activateWhenBuilt = 1,
 
 --Hitbox
-collisionVolumeOffsets    =  "0 0 0",
-collisionVolumeScales     =  "56 45 94",
-collisionVolumeType       =  "box",
+collisionVolumeOffsets    =  "0 1 0",
+collisionVolumeScales     =  "73 53.5 148",
+collisionVolumeType       =  "ellipsoid",
 
    
 --Weapons and related

@@ -56,7 +56,8 @@ BuildPic = "Constructor.png",
 --building
 Builder = true,
 ShowNanoSpray = true,
-CanBeAssisted = true,	
+CanBeAssisted = true,	collisionVolumeType       =  "box",
+
 workerTime = 5,
 repairSpeed = 3.3,
 reclaimSpeed = 5,
@@ -89,8 +90,8 @@ buildoptions =
 	},
 
 --Hitbox
- collisionVolumeOffsets    =  "0 -4 -2",
-collisionVolumeScales     =  "28 28 35",
+ collisionVolumeOffsets    =  "0 0 -1.5",
+collisionVolumeScales     =  "26 20.5 34.5",
 collisionVolumeType       =  "box",
 
    

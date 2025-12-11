@@ -57,10 +57,9 @@ BuildPic = "Swatter.png",
     activateWhenBuilt = 1,
 
 --Hitbox
-collisionVolumeOffsets    =  "0 5 0",
-collisionVolumeScales     =  "20.5 19 37",
+collisionVolumeOffsets    =  "0 2.5 -2",
+collisionVolumeScales     =  "20 19.5 35",
 collisionVolumeType       =  "box",
-
    
 --Weapons and related
   	explodeAs = [[SmallExplosion]],

@@ -14,7 +14,7 @@ return lowerkeys({
             category = "dedunit",
 			featureDead = "skeeter_heap",
 			collisionvolumeoffsets = "0 0 0",
-			collisionVolumeScales =  "22 17 35",
+			collisionVolumeScales =  "18 13 28",
 			collisionvolumetype = "box",
 },
 skeeter_heap = {

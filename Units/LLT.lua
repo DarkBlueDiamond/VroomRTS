@@ -13,7 +13,7 @@ BuildPic = "LLT.png",
 	icontype = "buildingllt",
 --Unit limitations and properties
     Description = "Basic Defensive Tower.",
-    MaxDamage = 750,
+    MaxDamage = 850,
     idleTime = 600,
     idleAutoHeal = 2,
     RadarDistance = 0,

@@ -29,14 +29,14 @@ BuildPic = "Archer.png",
     BuildCostMetal = 200,
     BuildTime = 200,
 --Pathfinding and related
-    maxAcc = 0.35,
-    BrakeRate = 0.1,
+  maxAcc = 0.0725,
+    BrakeRate = 0.087,
     FootprintX = 2,
     FootprintZ = 2,
     MaxSlope = 45,
     speed = 62,
     MovementClass = "Medium Ship",
-    TurnRate = 1750,
+    TurnRate = 725,
 
     
 --Abilities
@@ -53,9 +53,9 @@ BuildPic = "Archer.png",
     activateWhenBuilt = 1,
 	
 --Hitbox
-collisionVolumeOffsets    =  "0 0 0",
-collisionVolumeScales     =  "44 32 74",
-collisionVolumeType       =  "box",
+collisionVolumeOffsets    =  "0 1 0",
+collisionVolumeScales     =  "50 43 96",
+collisionVolumeType       =  "ellipsoid",
 
    
 --Weapons and related

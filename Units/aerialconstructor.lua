@@ -94,10 +94,10 @@ buildoptions =
 --Aerial things
 canFly = 1,
 hoverAttack = 1,
-cruiseAlt = 250, --375
+cruiseAlt = 250,
 --Hitbox
-collisionVolumeOffsets    =  "0 1 0",
-collisionVolumeScales     =  "20 14.5 42",
+collisionVolumeOffsets    =  "0 0 0",
+collisionVolumeScales     =  "15.5 14.25 38",
 collisionVolumeType       =  "box",
 
    

@@ -50,11 +50,11 @@ BuildPic = "Stunburst.png",
     Reclaimable = 1,
     canSelfDestruct = 1,
     repairable = 1,
-    
+
 
 --Hitbox
-collisionVolumeOffsets    =  "0 -3 3",
-collisionVolumeScales     =  "15.5 26 26",
+collisionVolumeOffsets    =  "0 0 -1.5",
+collisionVolumeScales     =  "13.75 11.5 19.75",
 collisionVolumeType       =  "box",
 
    

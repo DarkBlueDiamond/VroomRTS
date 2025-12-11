@@ -60,8 +60,8 @@ turnradius = 20,
 
 
 --Hitbox
-collisionVolumeOffsets    =  "0 5 0",
-collisionVolumeScales     =  "30 18 48",
+collisionVolumeOffsets    =  "0 0 -2",
+collisionVolumeScales     =  "26 15 51",
 collisionVolumeType       =  "box",
 
    

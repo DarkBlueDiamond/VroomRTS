@@ -53,8 +53,8 @@ BuildPic = "Panther.png",
     activateWhenBuilt = 1,
 
 --Hitbox
-    collisionVolumeOffsets    =  "0 -6 0",
-    collisionVolumeScales     =  "30.5 34 44",
+    collisionVolumeOffsets    =  "0 0 0",
+    collisionVolumeScales     =  "29.75 22 43",
     collisionVolumeType       =  "box",
 
    

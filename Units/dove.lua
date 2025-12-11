@@ -54,7 +54,7 @@ BuildPic = "Dove.png",
 --Aerial things
 canFly = 1,
 hoverAttack = 0,
-cruiseAlt = 325, --375
+cruiseAlt = 325,
 canLoopbackAttack = true,
 maxRudder = 0.009,
 maxElevator = 0.0265,
@@ -62,7 +62,7 @@ turnradius = 20,
 
 --Hitbox
 collisionVolumeOffsets    =  "0 0 0",
-collisionVolumeScales     =  "11 8 30",
+collisionVolumeScales     =  "7.5 7.5 25",
 collisionVolumeType       =  "box",
 
    

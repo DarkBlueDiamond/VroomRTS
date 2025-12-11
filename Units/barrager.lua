@@ -29,14 +29,14 @@ BuildPic = "Barrager.png",
     BuildCostMetal = 1150,
     BuildTime = 1150,
 --Pathfinding and related
-    maxAcc = 0.35,
-    BrakeRate = 0.1,
+    maxAcc = 0.05,
+    BrakeRate = 0.06,
     FootprintX = 2,
     FootprintZ = 2,
     MaxSlope = 45,
     speed = 34,
     MovementClass = "Large Ship",
-    TurnRate = 1400,
+    TurnRate = 500,
 
     
 --Abilities
@@ -53,9 +53,9 @@ BuildPic = "Barrager.png",
 	canManualFire = 1,
 	activateWhenBuilt = 1,
 --Hitbox
-collisionVolumeOffsets    =  "0 0 0",
-collisionVolumeScales     =  "48 45 96",
-collisionVolumeType       =  "box",
+collisionVolumeOffsets    =  "0 1 0",
+collisionVolumeScales     =  "53 50 139",
+collisionVolumeType       =  "ellipsoid",
 
    
 --Weapons and related

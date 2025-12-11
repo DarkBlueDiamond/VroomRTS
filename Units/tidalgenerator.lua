@@ -24,9 +24,9 @@ BuildPic = "Tidal Generator.png",
 	corpse = [[tidalgenerator_dead]],
 	floater = true,
 --Energy and metal related
-    BuildCostEnergy = 45,
-    BuildCostMetal = 45,
-    Buildtime = 45,
+    BuildCostEnergy = 60,
+    BuildCostMetal = 60,
+    Buildtime = 60,
     tidalGenerator = 0.1,
 --Size and Abilites
    MaxSlope = 33,

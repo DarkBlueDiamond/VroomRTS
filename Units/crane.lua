@@ -63,8 +63,8 @@ loadingRadius = 250,
 transportUnloadMethod = 0,
 releaseHeld = 1,
 --Hitbox
-collisionVolumeOffsets    =  "0 0.5 0",
-collisionVolumeScales     =  "44 19 54",
+collisionVolumeOffsets    =  "0 0 -5",
+collisionVolumeScales     =  "37.5 15 54",
 collisionVolumeType       =  "box",
 
    

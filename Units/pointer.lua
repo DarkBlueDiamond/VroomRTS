@@ -53,8 +53,8 @@ BuildPic = "Pointer.png",
     
 
 --Hitbox
-collisionVolumeOffsets    =  "0 -3 0",
-collisionVolumeScales     =  "15.5 21 36",
+collisionVolumeOffsets    =  "0 0 -0.75",
+collisionVolumeScales     =  "17 18 34",
 collisionVolumeType       =  "box",
 
    

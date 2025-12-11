@@ -36,8 +36,7 @@ BuildPic = "Harpy.png",
     speed = 128,
     MaxWaterDepth = 5,
     MovementClass = "Small Vechicle",
-    TurnRate = 1450, --750 and 900
-
+    TurnRate = 1450,
     
 --Abilities
     Builder = 0,
@@ -54,12 +53,12 @@ BuildPic = "Harpy.png",
 --Aerial things
 canFly = 1,
 hoverAttack = 1,
-cruiseAlt = 200, --375 and 250
+cruiseAlt = 200,
 
 
 --Hitbox
-collisionVolumeOffsets    =  "0 0.5 0",
-collisionVolumeScales     =  "18 12 36",
+collisionVolumeOffsets    =  "0 0 -1",
+collisionVolumeScales     =  "13 13.75 34",
 collisionVolumeType       =  "box",
 
    
